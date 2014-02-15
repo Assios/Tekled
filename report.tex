@@ -41,6 +41,8 @@
 \numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 \numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 
+\input{alphasection.tex}
+
 %----------------------------------------------------------------------------------------
 %   TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -96,5 +98,12 @@ TIØ4258 \\
 % Part C
 \input{c_part.tex}
 \newpage
+
+% Appendix
+
+\begin{alphasection}
+\section{Vedlegg}
+\input{appendix.tex}
+\end{alphasection}
 
 \end{document}
