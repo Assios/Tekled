@@ -1,2 +1,2 @@
 *.tex text eol=crlf
-
+*.tex diff=tex
