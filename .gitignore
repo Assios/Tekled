@@ -110,3 +110,6 @@
 
 # xindy
 *.xdy
+
+# Windows shit
+Thumbs.db
